@@ -1,5 +1,6 @@
-//  Name    : dhirajld1234
-//  Roll no : 21118
+// DHIRAJ LAXMAN DARAKHE
+// 21118 (com)
+// PICT, PUNE
 
 #include <bits/stdc++.h>
 using namespace std;
