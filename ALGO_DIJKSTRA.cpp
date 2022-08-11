@@ -24,8 +24,8 @@ void Dijkstra(ll source)
         vis[v] = 1;
         for (auto child : g[v])
         {
-            ll child_v = child.first;
-            ll wt = child.second;
+            ll child_v = child.second;
+            ll wt = child.first;
             if (dist[v] + wt < dist[child_v])
             {
                 dist[child_v] = dist[v] + wt;
