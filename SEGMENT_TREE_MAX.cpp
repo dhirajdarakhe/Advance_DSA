@@ -1,4 +1,6 @@
 
+// Query function time complexity = > o(logn)
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
