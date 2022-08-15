@@ -47,7 +47,7 @@ public:
         }
 
         // 2   no overlap
-        // we don't do any thing
+        // don't do any thing
         // low high l r or l r low high
         if (high < l || r < low)
             return;
