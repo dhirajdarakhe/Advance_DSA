@@ -5,28 +5,25 @@ using namespace std;
 
 void insertion_sort(int a[], int size)
 {
-    int key = 0;
-    int j;
+    int j = 0;
     for (int i = 1; i < size; i++)
     {
-        key = a[i];
-        j = i - 1;
-        while (j >= 0 && a[j] > key)
+        j = i;
+        while (j >= 0 && a[j] < a[j - 1])
         {
-            swap(a[j], a[j + 1]);
+            swap(a[j], a[j - 1]);
             j--;
         }
-        a[j+1] = key;
     }
 }
 int main()
-{   
-    int a []= {1,6,4,3,2,5};
-    insertion_sort(a,6);
+{
+    int a[] = {1, 6, 4, 3, 2, 5};
+    insertion_sort(a, 6);
     for (int i = 0; i < 6; i++)
     {
-     cout<<a[i];
+        cout << a[i] << " ";
     }
-    
+
     return 0;
 }
