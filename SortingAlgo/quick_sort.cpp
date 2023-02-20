@@ -43,3 +43,14 @@ int main()
 
     return 0;
 }
+
+
+
+Case	       Time Complexity
+
+Best Case	      O(n*logn)    }
+Average Case	  O(n*logn)    } >>> depend upon which element are selected for PIVOT
+Worst Case        O(n2)        } 
+    
+    
+    
