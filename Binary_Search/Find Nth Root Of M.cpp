@@ -8,7 +8,7 @@ double ans(double n, long long m)
    }
    return res;
 }
-int NthRoot(long long n, long long m) {
+int NthRoot(long long n, long  long m) {
   double low = 1;
   double high = m;
   double eps = 1e-7; 
