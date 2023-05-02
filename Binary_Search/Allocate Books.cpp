@@ -7,7 +7,7 @@ bool f(int mid, vector<int>& A, int b)
     for(int i = 0;i < A.size() ; ++i)
     {
         if(A[i] > mid) return 0;
-        if(ans + A[i] <= mid) ans+=A[i];
+        if(ans + A[i] <= mid) ans+=A[i]; 
         else
         {
             ans=A[i];
