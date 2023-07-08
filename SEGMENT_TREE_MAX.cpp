@@ -1,5 +1,20 @@
 
-// Query function time complexity = > o(logn)
+// Query and upadate function time complexity = > o(logn)
+//Time Complexity of Building a Segment Tree  = o(n)
+
+// A Segment Tree is a data structure used to answer multiple range queries on an array efficiently.
+// Also, it allows us to modify the array by replacing an element or an entire range of elements in logarithmic time.
+
+
+
+
+
+
+
+
+
+
+
 
 #include <bits/stdc++.h>
 using namespace std;
